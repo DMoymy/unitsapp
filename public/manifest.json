@@ -1,0 +1,26 @@
+{
+  "name": "unitsapp",
+  "short_name": "Units app",
+  "icons": [{
+       "src": "./images/icon192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },{
+       "src": "./images/icon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },{
+       "src": "./images/icon32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },{
+       "src": "./images/logo.png",
+      "sizes": "100x60",
+      "type": "image/png"
+    }
+   ],
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#006400",
+  "theme_color": "#006400"
+}
