@@ -85,7 +85,7 @@ unStr += '<tr><td>25 <=</td>';
 unStr += '<td id="bmi2530">BMI</td><td>< 30</td></tr>';
    
 unStr += '<tr><td>30 <=</td>';
-unStr += '<td id="bmi30inf">BMI</td><td>< Infinity </td></tr></table>';
+unStr += '<td id="bmi30inf">BMI</td><td>< Infinity </td></tr></table><br>';
 
 unStr += '</section>';
 
