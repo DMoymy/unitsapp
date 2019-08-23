@@ -91,7 +91,7 @@ unStr += '</section>';
 
 unStr += '<section class="ab-sections"><h1>How to use BMI Calculator</h1>'; 
 unStr += '<notes>To get the correct Body Mass Index, please be sure to enter your height in meters and your weight in kilograms. If you know your weight in pounds and your height in feet you can convert them to kilogramms and meters with weight and length converters in the  next tabs';
-unStr += '<strong><u>BMI references</u></strong>:<br>'; 
+unStr += '<br><strong><u>BMI references</u></strong>:<br>'; 
 unStr += 'https://www.cdc.gov/obesity/adult/defining.html</notes></section>';
 
 document.getElementById("contSpan").innerHTML = unStr;
