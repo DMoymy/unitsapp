@@ -633,12 +633,12 @@ th {
           height: 30px;            
           background-color: #3a7865; 
           font-family: arial, verdana;
-          font-size:.85em;
+          font-size: .9em;
           font-weight: normal;
           font-style: italic; 
           text-align: center;           
           color: white;
-          padding: 2px 2px;
+          padding: 3px 2px;
           box-sizing: border-box; 
           float: left; 
         } 
