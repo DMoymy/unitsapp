@@ -638,7 +638,7 @@ th {
           font-style: italic; 
           text-align: center;           
           color: white;
-          padding: 3px 2px;
+          padding-top: 6px;
           box-sizing: border-box; 
           float: left; 
         } 
