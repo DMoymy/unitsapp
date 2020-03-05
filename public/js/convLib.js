@@ -32,7 +32,7 @@ bannerMenuCont: function() {
 
 //Banner content
 
-var bc = '<img src="./images/logo.png" alt="Logo" class="logo" align="left" onclick="location.reload()"><p class="adsp">Web and Desktop Applications Development</p>';
+var bc = '<img src="./images/logo.png" alt="Logo" class="logo" align="left"><p class="adsp">Websites and Applications Development</p>';
 
 document.getElementById("bannerCont").innerHTML = bc;
 
@@ -90,8 +90,8 @@ unStr += '<td id="bmi30inf">BMI</td><td>< Infinity </td></tr></table><br>';
 unStr += '</section>';
 
 unStr += '<section class="ab-sections"><h1>How to use BMI Calculator</h1>'; 
-unStr += '<notes>To get the correct Body Mass Index, please be sure to enter your height in meters and your weight in kilograms. If you know your weight in pounds and your height in feet you can convert them to kilogramms and meters with weight and length converters in the  next tabs';
-unStr += '<br><strong><u>BMI references</u></strong>:<br>'; 
+unStr += '<notes>To get the correct Body Mass Index, please be sure to enter your height in meters and your weight in kilograms. If you know your weight in pounds and your height in feet you can convert them to kilogramms and meters with weight and length converters in the  next tabs.<br>';
+unStr += '<strong><u>BMI references</u></strong>:<br>'; 
 unStr += 'https://www.cdc.gov/obesity/adult/defining.html</notes></section>';
 
 document.getElementById("contSpan").innerHTML = unStr;
@@ -443,7 +443,7 @@ abapp += '<section class="ab-sections"><h1>Developer</h1>';
 
 abapp += '<p><img class="dev_pic" src="./images/Me.png" alt="Developer" align="left" style="max-width: 80%; max-height: 80%; border-radius: 80%; margin: 10px 10px 5px 10px;"><figcaption><b> Dah Moymy</b></figcaption></p>';
 
-abapp += '<p>&nbsp; Dah Moymy is a Full Stack Developer who is passionate about developing interactive and easy to use desktop and web applictions. He is also an Oracle Business Intelligence certified Specialist.</p></section>';
+abapp += '<p>&nbsp; Dah Moymy is a Full Stack Developer who is passionate about developing interactive and easy to use desktop and web applictions. He is also an Oracle Business Intelligence certified Specialist.</p><p>See also:<br><a href=" https://exporg.herokuapp.com/">Expenses Organizer Demo</a></p></section>';
 
 document.getElementById("ulDiv").innerHTML = "About";
 document.getElementById("contSpan").innerHTML = abapp;
@@ -464,15 +464,11 @@ var x =  navigator.onLine;
 
 };
 
-//connection Status
+//Execute on load
 
 onload = (function(){
    unapp.bannerMenuCont();
    unapp.spanCont();
    unapp.calcBMI();
-   unapp.tFunc();  
+   unapp.tFunc();           
 });
-
-
-
-
