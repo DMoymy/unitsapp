@@ -7,7 +7,7 @@ var unapp = unapp || {};
 
 unapp = {
 
-tabtext: ["BMI", "Weight", "Length", "Tempperature", "About"],
+tabtext: ["BMI", "Weight", "Length", "Temperature", "About"],
 
 tabfn: ["unapp.calcBMI()", "unapp.weightConv()", "unapp.lengthConv()", "unapp.tempConv()", "unapp.aboutDev()"],
 
